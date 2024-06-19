@@ -40,7 +40,7 @@ class NavigationController extends GetxController {
 
   final screens = [
     const Screen2(),
-     const Screen3(),
+     Screen3(),
 
 
 
