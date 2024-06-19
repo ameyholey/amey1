@@ -34,7 +34,7 @@ class Screen1 extends StatelessWidget {
               Padding(
                 padding: const EdgeInsets.only(left: 21.0),
                 child: const Text(
-                  'you want to goo ? ',
+                  'you want to go ? ',
                   style: TextStyle(fontSize: 30,fontWeight: FontWeight.bold),
                 ),
               ),

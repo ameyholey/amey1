@@ -53,7 +53,7 @@ class Screen3 extends StatelessWidget {
               children: [
                 Container(
                   child: DropdownButton(
-                    hint: Text('~~~~~~~~'),
+                    hint: Text('~~~~~~~'),
                     borderRadius: BorderRadius.circular(30),
                     items: droparray.map((e) {
                       return DropdownMenuItem(
