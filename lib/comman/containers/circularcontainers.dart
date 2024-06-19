@@ -6,7 +6,7 @@ class ACircularcontainer extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SizedBox(
-      height: 120,
+      height: 121,
       child: Padding(
         padding: const EdgeInsets.only(left: 12),
         child: ListView.builder(

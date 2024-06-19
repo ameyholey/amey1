@@ -102,7 +102,7 @@ class Screen2 extends StatelessWidget {
               Padding(
                 padding: const EdgeInsets.only(left: 12, bottom: 2),
                 child: Text(
-                  'Inspiration for your trip',
+                  'Inspiration for your tripp',
                   style: TextStyle(
                     fontSize: 20,
                     fontWeight: FontWeight.w900,

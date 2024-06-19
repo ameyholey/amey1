@@ -28,7 +28,7 @@ class ASBoxcontaines extends StatelessWidget {
                               width: 1.0,
                             ),
                           ),
-                          height: 320,
+                          height: 330,
                           width: 400,
                           child: Stack(
                             children: [

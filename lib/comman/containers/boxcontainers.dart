@@ -27,7 +27,7 @@ class ABoxcontaines extends StatelessWidget {
                             width: 1.0,
                           ),
                         ),
-                        height: 140,
+                        height: 141,
                         width: 210,
                         child: Stack(
                           children: [
