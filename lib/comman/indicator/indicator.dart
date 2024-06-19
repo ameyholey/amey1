@@ -8,7 +8,7 @@ class Indicator extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SizedBox(
-      height: 26,
+      height: 27,
       child: Stack(
         children: [
 
