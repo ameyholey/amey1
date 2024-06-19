@@ -8,7 +8,7 @@ import 'comman/containers/smallboxcontainers.dart';
 class Screen3 extends StatelessWidget {
   Screen3({super.key});
 
-  final droparray = ['1,2,3,4'];
+  final droparray = ['1,2,3,4,5,6'];
 
   @override
   Widget build(BuildContext context) {

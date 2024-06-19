@@ -52,7 +52,7 @@ class Screen2 extends StatelessWidget {
                           size: 20,
                           color: Colors.grey,
                         ),
-                        Center(child: Text('~~~~ ~~~~~')),
+                        Center(child: Text('~~~~~~ ~~~~~')),
                       ],
                     ),
                     SizedBox(

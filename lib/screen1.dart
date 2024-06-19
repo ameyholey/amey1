@@ -98,7 +98,7 @@ class Screen1 extends StatelessWidget {
                 ),
                 onPressed: () {},
                 child: Text(
-                  'Continue',
+                  'Continue.',
                   style: TextStyle(
                     fontSize: 20,
                   ),
