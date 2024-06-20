@@ -17,23 +17,23 @@ class Screen1 extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.stretch,
         mainAxisAlignment: MainAxisAlignment.end,
         children: [
-          Padding(
-            padding: const EdgeInsets.all(20.0),
+          const Padding(
+            padding: EdgeInsets.all(20.0),
             child: Indicator(value: 0.7),
           ),
 
-          Column(
+          const Column(
             children: [
               Padding(
-                padding: const EdgeInsets.only(left: 8.0),
-                child: const Text(
+                padding: EdgeInsets.only(left: 8.0),
+                child: Text(
                   AText.s1t1,
                   style: TextStyle(fontSize: 30,fontWeight: FontWeight.bold),
                 ),
               ),
               Padding(
-                padding: const EdgeInsets.only(left: 21.0),
-                child: const Text(
+                padding: EdgeInsets.only(left: 21.0),
+                child: Text(
                   'you want to go ? ',
                   style: TextStyle(fontSize: 30,fontWeight: FontWeight.bold),
                 ),
@@ -97,7 +97,7 @@ class Screen1 extends StatelessWidget {
                   backgroundColor: Colors.black, // Text color
                 ),
                 onPressed: () {},
-                child: Text(
+                child: const Text(
                   'Continue.',
                   style: TextStyle(
                     fontSize: 20,

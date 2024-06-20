@@ -1,10 +1,7 @@
+import 'package:amey/constants/imagestrings.dart';
 import 'package:amey/screen1.dart';
-import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:get/get_core/src/get_main.dart';
-import 'package:iconsax/iconsax.dart';
-
 import 'comman/containers/boxcontainers.dart';
 import 'comman/containers/circularcontainers.dart';
 
@@ -22,7 +19,7 @@ class Screen2 extends StatelessWidget {
               Center(
                 child: Column(
                   children: [
-                    SizedBox(
+                    const SizedBox(
                       height: 50,
                     ),
                     Container(
@@ -38,13 +35,12 @@ class Screen2 extends StatelessWidget {
                         ),
                       ),
                       child: ClipOval(
-                        child: Image.network(
-                          'https://images.unsplash.com/photo-1520342868574-5fa3804e551c?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=6ff92caffcdd63681a35134a6770ed3b&auto=format&fit=crop&w=1951&q=80',
+                        child: Image.asset( AImages.proimg,
                           fit: BoxFit.cover,
                         ),
                       ),
                     ),
-                    Row(
+                    const Row(
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [
                         Icon(
@@ -55,10 +51,10 @@ class Screen2 extends StatelessWidget {
                         Center(child: Text('~~~~~~ ~~~~~')),
                       ],
                     ),
-                    SizedBox(
+                    const SizedBox(
                       height: 10,
                     ),
-                    Text(
+                    const Text(
                       "Know where you wanna go?",
                       style: TextStyle(
                         fontSize: 20,
@@ -70,7 +66,7 @@ class Screen2 extends StatelessWidget {
                           foregroundColor: Colors.white, backgroundColor: Colors.black, // Text color
                         ),
                         onPressed: ()  => Get.to(() => const Screen1()),
-                        child: Text(
+                        child: const Text(
                           'Start your trips',
                           style: TextStyle(
                             fontSize: 20,
@@ -79,11 +75,11 @@ class Screen2 extends StatelessWidget {
                   ],
                 ),
               ),
-              SizedBox(
+              const SizedBox(
                 height: 50,
               ),
-              Padding(
-                padding: const EdgeInsets.only(left: 12, bottom: 2),
+              const Padding(
+                padding: EdgeInsets.only(left: 12, bottom: 2),
                 child: Text(
                   'Category',
                   style: TextStyle(
@@ -92,15 +88,15 @@ class Screen2 extends StatelessWidget {
                   ),
                 ),
               ),
-              SizedBox(
+              const SizedBox(
                 height: 20,
               ),
-              ACircularcontainer(),
-              SizedBox(
+              const ACircularcontainer(),
+              const SizedBox(
                 height: 20,
               ),
-              Padding(
-                padding: const EdgeInsets.only(left: 12, bottom: 2),
+              const Padding(
+                padding: EdgeInsets.only(left: 12, bottom: 2),
                 child: Text(
                   'Inspiration for your trip',
                   style: TextStyle(
@@ -109,15 +105,15 @@ class Screen2 extends StatelessWidget {
                   ),
                 ),
               ),
-              SizedBox(
+              const SizedBox(
                 height: 20,
               ),
-              ABoxcontaines(),
-              SizedBox(
+              const ABoxcontaines(),
+              const SizedBox(
                 height: 10,
               ),
-              Padding(
-                padding: const EdgeInsets.only(left: 12, bottom: 2),
+              const Padding(
+                padding: EdgeInsets.only(left: 12, bottom: 2),
                 child: Text(
                   'Free Destinations',
                   style: TextStyle(
@@ -126,10 +122,10 @@ class Screen2 extends StatelessWidget {
                   ),
                 ),
               ),
-              SizedBox(
+              const SizedBox(
                 height: 20,
               ),
-              ABoxcontaines(),
+              const ABoxcontaines(),
             ],
           ),
         ),
